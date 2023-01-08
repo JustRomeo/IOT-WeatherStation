@@ -11,6 +11,8 @@ Now you can so get the data from another module to use it as you want.
 Here there is all you need to make the wiring part.
 > Note that for now, the system use à 9V battery.
 
+You can found a Tinkercad schema in the Documentation folder.
+
 | Sensors         | Usage | Link |
 | --------------- | ----- | ---- |
 | Arduino UNO     | To operate and update the software | [here](https://www.amazon.fr/Arduino-A000066-M%C3%A9moire-flash-32/dp/B008GRTSV6/ref=sr_1_5?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=6UZUTJTEXEB4&keywords=Arduino+Uno&qid=1673103852&sprefix=arduino+uno%2Caps%2C104&sr=8-5) |
@@ -20,6 +22,7 @@ Here there is all you need to make the wiring part.
 
 
 # Next
-- I will soon upload some pictures of the project
-- I will soon upload some Tinkercad schema about the wiring
-- Battery percent will be display on the LCD screen.
+- I will soon upload some pictures of the project.
+- I'll soon make the plastic case.
+- I plan to try to put a atmospheric pressure sensor.
+- I'll put a rain sensor.
