@@ -1,6 +1,6 @@
 #include <SPI.h>
-#include <nRF24L01.h>
 #include <RF24.h>
+#include <nRF24L01.h>
 
 const uint64_t pipeOut = 0xE8E8F0F0E1LL;
 #define DHTPIN 3
