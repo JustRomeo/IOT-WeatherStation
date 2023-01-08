@@ -15,29 +15,15 @@ void print_serial() {
     Serial.println("C°");   
 }
 
-float battery() {
-    float TensionMin = 3.0;
-    float TensionMax = 4.2;
-    float b = analogRead(A2); //valeur analogique
-
-    int minValue = (1023 * TensionMin) / 5;    // Arduino
-    int maxValue = (1023 * TensionMax) / 5;    // Arduino
-    // int minValue = (4095 * TensionMin) / 3; // ESP32
-    // int maxValue = (4095 * TensionMax) / 3; // ESP32
-  
-    b = ((b - minValue) / (maxValue - minValue)) * 100; // mettre en pourcentage
-    return b > 100 ? 100 : (b < 0 ? 0 : b);
-}
-
-
-void setup(){
+void init_lcd() {
     lcd.init();
     lcd.backlight();
 
     Serial.begin(9600);
     delay(1500);
 }
-void loop(){
+
+void display_lcd() {
     DHT.read11(dht_apin);
 
     // print_serial();
@@ -65,7 +51,7 @@ void loop(){
     lcd.print("%");
 
     // Print Battery
-    float percent = battery();
+    /* float percent = battery();
 
     if (percent < 10)
         lcd.setCursor(14, 1);
@@ -79,7 +65,7 @@ void loop(){
 
     lcd.print(percent);
     lcd.setCursor(15, 1);
-    lcd.print("%");
+    lcd.print("%");*/
 
     // Print on console (or send to Processing)
     // Serial.println((int)DHT.humidity);
