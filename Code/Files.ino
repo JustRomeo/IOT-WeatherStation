@@ -1,3 +1,4 @@
+/*
 char *readFile(const char *filepath) {
     int pos = 0;
     File file = LittleFS.open(filepath, "r");
@@ -16,3 +17,4 @@ char *readFile(const char *filepath) {
     file.close();
     return str;
 }
+*/
