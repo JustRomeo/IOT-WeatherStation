@@ -1,5 +1,5 @@
 ---
-name: Code - Bug report
+name: BUG - Report a bug
 about: 'Make an issue about the software '
 title: "[BUG] FILE: understandable error name"
 labels: ''

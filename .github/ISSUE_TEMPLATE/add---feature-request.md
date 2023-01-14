@@ -1,9 +1,9 @@
 ---
-name: ALL - Feature request
+name: ADD - Feature request
 about: Suggest an idea for this project
 title: "[ADD] HARD|SOFT|SUPP|OTHER: Name of the feature i want to add"
 labels: ''
-assignees: ''
+assignees: JustRomeo
 
 ---
 
