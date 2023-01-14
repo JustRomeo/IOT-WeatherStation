@@ -25,5 +25,6 @@ MyData getData() {
 
     data.h = DHT.humidity;
     data.t = DHT.temperature;
+    return data;
 }
 

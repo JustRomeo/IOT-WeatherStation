@@ -20,5 +20,5 @@ void loop() {
 
     display_lcd(data);
     send_data(data);
-    delay(250);
+    delay(300000); // delay 5mins
 }
